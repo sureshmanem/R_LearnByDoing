@@ -9,7 +9,7 @@
 # by genre. This is in addition to the other 5. See the next page for the CEO's "Vision".
 
 getwd()
-setwd('C:\\Users\\212171\\OneDrive - Cognizant\\Learning\\R\\Section 6 Advanced Visuzlization')
+setwd('C:\\SureshManem\\Learning\\R\\Section 6 Advanced Visuzlization')
 
 # Data set
 movies <- read.csv('P2-Movie-Ratings.csv')
@@ -26,6 +26,7 @@ summary(movies)
 str(movies)
 
 #-------- Aesthetics
+install.packages("ggplot2")
 library(ggplot2)
 ggplot(data=movies,aes(x=CriticRating,y=AudienceRating))
 
