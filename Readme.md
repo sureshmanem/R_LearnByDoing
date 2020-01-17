@@ -1,7 +1,7 @@
 # R Programming
 
 ## Module 1 - Hit the Ground Running
-- Installing R and R Studio
+- Installing R and R Studio: Please refer Youtube for latest updates.
 ## Module 2 - Core Programming Principles
 - Types of variables
 - Using variables
